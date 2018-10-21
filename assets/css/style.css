@@ -1,0 +1,29 @@
+.container {
+    position: absolute;
+    width:800px;
+    height:200px;
+    z-index:1;
+    visibility: visible;
+}
+
+.slides {
+    z-index:2;
+    position:relative;
+    width: 350px;
+    height: 200px;
+    overflow: hidden;
+    border: 3px solid #F2F2F2;
+}
+
+.slides ul {
+    /* 4 images donc 4 x 100% */
+    width: 400%;
+    height: 200px;
+    padding:0; margin:0;
+    list-style: none;
+}
+.slides li {
+    float: left;
+}
+
+
